@@ -1,0 +1,109 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.4' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2642,         99]
+NotebookOptionsPosition[      2186,         78]
+NotebookOutlinePosition[      2530,         93]
+CellTagsIndexPosition[      2487,         90]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"f", "[", "r_", "]"}], ":=", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{"6.763187", "*", 
+     RowBox[{"10", "^", 
+      RowBox[{"-", "5"}]}]}], ")"}], "+", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"3.92127", "*", 
+       RowBox[{"10", "^", 
+        RowBox[{"-", "4"}]}]}], ")"}], "*", 
+     RowBox[{"Log", "[", "r", "]"}]}], ")"}], "+", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "4.325024"}], "*", 
+       RowBox[{"10", "^", 
+        RowBox[{"-", "7"}]}]}], ")"}], "*", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"Log", "[", "r", "]"}], ")"}], "^", "3"}]}], 
+    ")"}]}]}]], "Input",
+ CellChangeTimes->{{3.715015333400902*^9, 3.7150154241689777`*^9}, 
+   3.7150155339419537`*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"1", "/", 
+  RowBox[{"f", "[", 
+   RowBox[{"5.37", "*", 
+    RowBox[{"10", "^", "3"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.7150154332508855`*^9, 3.7150154582583857`*^9}, {
+  3.7150155014457045`*^9, 3.7150155050280623`*^9}}],
+
+Cell[BoxData["316.31099112848585`"], "Output",
+ CellChangeTimes->{
+  3.715015461971757*^9, {3.7150155079113507`*^9, 3.7150155392764874`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"1", "/", 
+  RowBox[{"f", "[", 
+   RowBox[{"3.96", "*", 
+    RowBox[{"10", "^", "3"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.7150155144470043`*^9, 3.715015521452705*^9}, {
+  3.7150155524228015`*^9, 3.715015561350694*^9}}],
+
+Cell[BoxData["325.71805747230366`"], "Output",
+ CellChangeTimes->{{3.7150155219477544`*^9, 3.7150155615237117`*^9}}]
+}, Open  ]]
+},
+WindowSize->{759, 835},
+WindowMargins->{{Automatic, 572}, {63, Automatic}},
+FrontEndVersion->"10.4 for Microsoft Windows (64-bit) (April 11, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 785, 27, 52, "Input"],
+Cell[CellGroupData[{
+Cell[1368, 51, 253, 6, 31, "Input"],
+Cell[1624, 59, 141, 2, 31, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1802, 66, 249, 6, 31, "Input"],
+Cell[2054, 74, 116, 1, 64, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
